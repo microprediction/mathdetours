@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The biggest piece that fits both · Math Detours</title>
+<meta name="description" content="The greatest common factor of two fractions: the longest piece that measures both exactly. Common denominators, a shortcut that needs lowest terms, and Euclid with fractions.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Math Detours">
+<meta property="og:title" content="The biggest piece that fits both · Math Detours">
+<meta property="og:description" content="The greatest common factor of two fractions: the longest piece that measures both exactly. Common denominators, a shortcut that needs lowest terms, and Euclid with fractions.">
+<meta property="og:url" content="https://mathdetours.com/grade-6/sheets/b38-fraction-gcf.html">
+<meta property="og:image" content="https://mathdetours.com/assets/social.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.css">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<nav class="top">
+  <a class="brand" href="../../index.html"><span class="inf">∞</span> Math Detours</a>
+  <a href="../index.html">Grade 6</a>
+  <a href="../index.html#sheets">Sheets</a>
+  <a href="../../demos/index.html">Demos</a>
+  <a href="../plan.html">Start here</a>
+  <a href="../../parents.html">Parents</a>
+  <span class="spacer"></span>
+  <button data-print>Print this sheet</button>
+</nav>
+
+<main class="paper">
+<header class="sheet-head">
+  <div class="kicker">Math Detours · Grade 6 · Around the corner · 38</div>
+  <h1>The biggest piece that fits both</h1>
+  <p class="teaser">You know the GCF of 12 and 18. What is the GCF of \(\tfrac{2}{3}\) and \(\tfrac{4}{5}\)? It is the longest piece that measures both exactly.</p>
+  <div class="namebar"><span>Name ____________________</span><span>Date ____________</span></div>
+</header>
+
+<section class="idea">
+<h2>Tonight's idea</h2>
+<p>The GCF of 12 and 18 is 6 (see <a href="a6-gcf-lcm.html">Gears, lockers and common factors</a>). Think of it as a length: the longest stick that measures out 12 and also 18 with nothing left over. Sticks of 6 fit 2 times and 3 times.</p>
+<p>That picture works for fractions too. For positive fractions \(x\) and \(y\), a <b>common factor</b> is a length \(r\) that fits into each a <em>whole</em> number of times. The <b>GCF</b> is the longest one. The word "whole" matters: any fraction fits into any other some fraction of a time, so without it every length would count.</p>
+<div class="callout">Write \(x\) and \(y\) over the same denominator. Their GCF is the GCF of the two tops, over that denominator.</div>
+<p>There is a shortcut. If both fractions are in <b>lowest terms</b>, the GCF is the GCF of the tops over the LCM of the bottoms. The lowest-terms condition is needed, as question 3 shows.</p>
+</section>
+
+<section class="example">
+<h2>Watch one: two ribbons</h2>
+<p>You have ribbons \(\tfrac{2}{3}\) m and \(\tfrac{4}{5}\) m long. You want to cut both into pieces that are all the same length, as long as possible, with nothing wasted.</p>
+<p>Over fifteenths: \(\tfrac{2}{3} = \tfrac{10}{15}\) and \(\tfrac{4}{5} = \tfrac{12}{15}\). The GCF of 10 and 12 is 2, so the GCF is \(\tfrac{2}{15}\) m. The first ribbon gives \(10 \div 2 = 5\) pieces and the second gives \(12 \div 2 = 6\).</p>
+<p>Shortcut check: GCF(2, 4) = 2 and LCM(3, 5) = 15, so again \(\tfrac{2}{15}\).</p>
+<figure><svg viewBox="0 0 520 116" width="520" height="116" role="img" aria-label="Two ribbons drawn to scale. The 2/3 metre ribbon is cut into 5 equal pieces and the 4/5 metre ribbon into 6 equal pieces, every piece 2/15 metre long"><g font-family="Nunito, sans-serif" font-size="14" fill="#1d1f3a"><rect x="20" y="14" width="60" height="26" fill="#dcdcf5" stroke="#1d1f3a" stroke-width="1.5"/><rect x="80" y="14" width="60" height="26" fill="#fde8c4" stroke="#1d1f3a" stroke-width="1.5"/><rect x="140" y="14" width="60" height="26" fill="#dcdcf5" stroke="#1d1f3a" stroke-width="1.5"/><rect x="200" y="14" width="60" height="26" fill="#fde8c4" stroke="#1d1f3a" stroke-width="1.5"/><rect x="260" y="14" width="60" height="26" fill="#dcdcf5" stroke="#1d1f3a" stroke-width="1.5"/><text x="332" y="32" text-anchor="start">2/3 m, 5 pieces</text><rect x="20" y="58" width="60" height="26" fill="#dcdcf5" stroke="#1d1f3a" stroke-width="1.5"/><rect x="80" y="58" width="60" height="26" fill="#fde8c4" stroke="#1d1f3a" stroke-width="1.5"/><rect x="140" y="58" width="60" height="26" fill="#dcdcf5" stroke="#1d1f3a" stroke-width="1.5"/><rect x="200" y="58" width="60" height="26" fill="#fde8c4" stroke="#1d1f3a" stroke-width="1.5"/><rect x="260" y="58" width="60" height="26" fill="#dcdcf5" stroke="#1d1f3a" stroke-width="1.5"/><rect x="320" y="58" width="60" height="26" fill="#fde8c4" stroke="#1d1f3a" stroke-width="1.5"/><text x="392" y="76" text-anchor="start">4/5 m, 6 pieces</text><text x="50" y="106" text-anchor="middle" fill="#3f44c9">2/15 m</text></g></svg><figcaption>Pieces of \(\tfrac{2}{15}\) m fit 5 times into one ribbon and 6 times into the other.</figcaption></figure>
+</section>
+
+<section class="exercises">
+<h2>Your turn</h2>
+<ol>
+<li>Find the GCF of \(\tfrac{3}{4}\) and \(\tfrac{9}{10}\), and of \(\tfrac{5}{6}\) and \(\tfrac{10}{9}\). Use a common denominator, then check with the shortcut. Say how many times the GCF fits into each fraction.<div class="space"></div></li>
+<li>A floor is \(1\tfrac{1}{2}\) m by \(2\tfrac{1}{4}\) m. What is the largest square tile that covers it exactly, without cutting tiles, and how many tiles are needed?<div class="space short"></div></li>
+<li>Sam wants the GCF of \(\tfrac{1}{2}\) and \(\tfrac{1}{3}\), but writes \(\tfrac{1}{2}\) as \(\tfrac{2}{4}\) and uses the shortcut: GCF(2, 1) over LCM(4, 3) gives \(\tfrac{1}{12}\). Find the true GCF with a common denominator. Is \(\tfrac{1}{12}\) a common factor at all? Why did the shortcut go wrong?<div class="space"></div></li>
+<li>Euclid's trick from Sharpen 6 works on fractions: replace the bigger one by its remainder after taking away as many copies of the smaller one as fit. Run it on \(\tfrac{7}{2}\) and \(\tfrac{21}{8}\). Write every line.<div class="space"></div></li>
+</ol>
+</section>
+
+<section class="stretch">
+<h2>Stretch: two blinking lights</h2>
+<p>One light blinks every \(\tfrac{3}{4}\) second and another every \(\tfrac{5}{6}\) second. They blink together right now. When do they next blink together? That time is the <b>LCM</b> of the two fractions: the shortest length that each fits into a whole number of times. Guess a shortcut for the LCM of two fractions in lowest terms, and test it here. Then check whether GCF × LCM equals \(\tfrac{3}{4} \times \tfrac{5}{6}\), as it does for whole numbers.</p>
+<div class="space"></div>
+</section>
+
+<section class="answers">
+<h2>Answers</h2>
+<ol>
+<li>\(\tfrac{3}{4} = \tfrac{15}{20}\) and \(\tfrac{9}{10} = \tfrac{18}{20}\). GCF(15, 18) = 3, so the GCF is \(\tfrac{3}{20}\). Shortcut: GCF(3, 9) = 3 over LCM(4, 10) = 20. It fits 5 times into \(\tfrac{3}{4}\) and 6 times into \(\tfrac{9}{10}\). Next, \(\tfrac{5}{6} = \tfrac{15}{18}\) and \(\tfrac{10}{9} = \tfrac{20}{18}\). GCF(15, 20) = 5, so the GCF is \(\tfrac{5}{18}\). Shortcut: GCF(5, 10) = 5 over LCM(6, 9) = 18. It fits 3 times and 4 times.</li>
+<li>\(1\tfrac{1}{2} = \tfrac{6}{4}\) and \(2\tfrac{1}{4} = \tfrac{9}{4}\). GCF(6, 9) = 3, so the tiles are \(\tfrac{3}{4}\) m on a side. They fit 2 times along one wall and 3 times along the other: \(2 \times 3 = 6\) tiles.</li>
+<li>\(\tfrac{1}{2} = \tfrac{3}{6}\) and \(\tfrac{1}{3} = \tfrac{2}{6}\). GCF(3, 2) = 1, so the true GCF is \(\tfrac{1}{6}\). It fits 3 times and 2 times. \(\tfrac{1}{12}\) is a common factor (it fits 6 times and 4 times) but not the greatest: it is half of \(\tfrac{1}{6}\). Writing \(\tfrac{2}{4}\) hid a factor of 2 shared by the top and bottom. The common-denominator method works with any shared denominator. The shortcut needs both fractions in lowest terms.</li>
+<li>\(\tfrac{7}{2} = \tfrac{28}{8}\). Take away one \(\tfrac{21}{8}\): \(\tfrac{28}{8} = 1 \times \tfrac{21}{8} + \tfrac{7}{8}\). Now use \(\tfrac{21}{8}\) and \(\tfrac{7}{8}\): \(\tfrac{21}{8} = 3 \times \tfrac{7}{8} + 0\). Stop. The GCF is \(\tfrac{7}{8}\). Shortcut check: GCF(7, 21) = 7 over LCM(2, 8) = 8. It works for the same reason as before: a length that fits a whole number of times into two lengths also fits a whole number of times into their difference.</li>
+</ol>
+<p><b>Stretch.</b> Over twelfths, \(\tfrac{3}{4} = \tfrac{9}{12}\) and \(\tfrac{5}{6} = \tfrac{10}{12}\). The LCM of 9 and 10 is 90, so the LCM is \(\tfrac{90}{12} = \tfrac{15}{2} = 7\tfrac{1}{2}\) seconds: 10 blinks of the first light and 9 of the second. The shortcut is LCM of the tops over GCF of the bottoms: LCM(3, 5) = 15 over GCF(4, 6) = 2. The GCF is \(\tfrac{1}{12}\), and \(\tfrac{1}{12} \times \tfrac{15}{2} = \tfrac{15}{24} = \tfrac{3}{4} \times \tfrac{5}{6}\). The product fact still holds.</p>
+</section>
+
+<div class="sheet-nav"><a href="b37-quasigroup-tables.html">← Previous</a><a href="c1-music.html">Next: Why there are twelve notes →</a></div>
+</main>
+
+<footer>Math Detours · mathdetours.com · Print one sheet a night.</footer>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.11/contrib/auto-render.min.js"></script>
+<script defer src="../../assets/site.js"></script>
+</body>
+</html>
