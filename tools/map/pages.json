@@ -553,6 +553,7 @@
   "demos/clt.html": [{"code": "60F", "level": "core"}, {"code": "65C", "level": "touch"}],
   "demos/collatz.html": [{"code": "11B", "level": "core"}, {"code": "37P", "level": "touch"}],
   "demos/colour.html": [{"code": "05C", "level": "core"}],
+  "demos/complex-add.html": [{"code": "12D", "level": "core"}, {"code": "30A", "level": "touch"}],
   "demos/complex.html": [{"code": "30A", "level": "core"}, {"code": "12D", "level": "touch"}],
   "demos/conics.html": [{"code": "51N", "level": "core"}, {"code": "51M", "level": "core"}],
   "demos/cube3d.html": [{"code": "15A", "level": "core"}, {"code": "51N", "level": "touch"}],
